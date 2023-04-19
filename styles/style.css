@@ -39,8 +39,8 @@ header > div {
   
 #img-back {
   object-fit: cover;
-  width: 100%;
-  height: 650px;
+  width: 50%;
+  height: 350px;
   padding-top: 45vh;
   display: flex;
 	flex-direction: column;
@@ -48,6 +48,7 @@ header > div {
 	justify-content: space-evenly;
 	align-items: stretch;
 	align-content: center;
+  padding-left: 20vw;
 }
 
   .centered-text {
@@ -173,18 +174,74 @@ a{
     align-content: center;
     width: 90%;
     margin-left: 10vw;
+    
   }
+  .internal-div-ab > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: fuchsia;
+}
+.internal-div-a > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: fuchsia;
+}
+.internal-div > a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: fuchsia; 
+}
+/* Visit page Link */
+.button{
+  margin: 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border: 40;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600vw;
+  color: #090535;
+  letter-spacing: 1px;
+  font-size: 20px;
+  margin-top: 50px;
+  background-color: rgb(69, 79, 70);
+ padding-left: 20px;
+ 
+ 
+}
+.button a{
+  text-decoration: none;
+  color:rgb(255, 144, 144);
+  background-color: rgb(69, 79, 70);
+
+}
+.button:hover{
+  background-color:rgb(69, 79, 70);
+  
+  
+
+}
  
     
   
   .advantages .internal-div-a ul,a{
-      list-style:circle;
+      list-style:none;
       display: flex;
       flex-direction: column;
       justify-content: space-around;
       align-items: center;
       text-decoration: none;
     color: rgb(255, 116, 116);
+    font-size: 20px;
+    padding-right: 20px;
   }
 
 
@@ -208,6 +265,9 @@ a{
 #insta{
  padding-top: 30px;
 
+}
+#beatport{
+  padding-top: 30px;
 }
 .logos > p{
     font-size: 80px;
