@@ -39,44 +39,49 @@ header > div {
   
 #img-back {
   object-fit: cover;
-  width: 50%;
-  height: 350px;
-  padding-top: 45vh;
+  width: 80%;
+  height: 750px;
+  padding-top: 25vh;
   display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: stretch;
+  align-items: baseline;
 	align-content: center;
-  padding-left: 20vw;
+  padding-left: 10vw;
+ 
 }
 
   .centered-text {
-    position: absolute;
-    top: 60%;
+    position:absolute;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 90%;
+    width: 70%;
+    padding-bottom: 10vw;
+    padding-right: 10vw;
+    display: flex;
+   
+    
   }
   
   .centered-title {
-    text-align: center;
-    font-size: 6.5em;
+    font-size: 5.5em;
     font-weight: 700;
     opacity: 0;
     animation: fadein 2s forwards;
     animation-delay: 1s;
+   
   }
   
   .centered-subtitle {
-    text-align: center;
-    font-size: 2em;
+    font-size: 1.9em;
     font-weight: 400;
     opacity: 0;
     animation: fadein 2s forwards;
     animation-delay: 2s;
     color: rgb(38, 38, 38);
     font-weight:bold;
+   
    
   }
 
@@ -92,16 +97,11 @@ header > div {
     font-size: 30px;
 }
 
-a{
-    text-decoration: none;
-    color: rgb(255, 73, 161);
-    font-size: 30px;
-   
-}
 .footer p{
     color:rgb(220, 220, 220);
     font-size: 20px;
 }
+
 
 /**old version**/
 .advantages {
@@ -115,57 +115,71 @@ a{
     background-color: #131313;
   }
   
-  .advantages h1 {
+  /*.advantages h1 {
     padding: 50px;
     width: 26%;
-    margin-bottom: 5rem;
     letter-spacing: 2px;
     font-weight: bolder;
     font-size: 2.3em;
     text-align: center;
     /*color: rgb(214, 165, 165);*/
+    /*color: rgb(255, 116, 116);
+    
+  }*/
+
+  /*About Me*/
+  .img-container, h1{
+    margin-top: 100px;
+    padding: 0px;
+    width: 100%;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 2.5em;
+    text-align: center;
+    /*color: rgb(214, 165, 165);*/
     color: rgb(255, 116, 116);
+    
   }
-  
-  .advantages h1 > span {
-    border-bottom: 4px solid #fbfefd;
-  }
-  
+
+  /*MUSIC PRODUCER*/
   .advantages h2 {
     color: #de8f8f;
     font-size: 30px;
+
   }
   
-  .advantages p {
-    font-weight: 100;
-    font-size: 1.5em;
-    text-align: center;
-    color:aqua
+  .internal-div-ab, p {
+    font-size: 20px;
+    text-align:center;
+    color:rgb(24, 231, 231);
+    
+   
+  
   }
   
 
   
-  .advantages .external-div {
+ .external-div {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-evenly;
     flex-wrap: nowrap;
     align-items: baseline;
     width: 90%;
-    padding-left: 50px;
+    padding-right: 60px;
     
   }
-  
-  .advantages .internal-div {
+  /*Design/Nike-Charlotte*/
+ .internal-div>p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items:flex-start;
-    align-content: center;
-    width: 30%;
+    color:chartreuse;
+    font-size: 20px;
   
   }
+  /*Album-Remixes-Singles*/
   .internal-div-a{
     display: flex;
     flex-direction: column;
@@ -176,72 +190,42 @@ a{
     margin-left: 10vw;
     
   }
-  .internal-div-ab > a{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: fuchsia;
-}
-.internal-div-a > a{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: fuchsia;
-}
-.internal-div > a{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: fuchsia; 
-}
-/* Visit page Link */
-.button{
-  margin: 5px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1;
-  border: 40;
-  border-radius: 5px;
-  text-transform: uppercase;
-  font-weight: 600vw;
-  color: #090535;
-  letter-spacing: 1px;
-  font-size: 20px;
-  margin-top: 50px;
-  background-color: rgb(69, 79, 70);
- padding-left: 20px;
- 
- 
-}
-.button a{
-  text-decoration: none;
-  color:rgb(255, 144, 144);
-  background-color: rgb(69, 79, 70);
+  .internal-div-a{
+    padding-right: 50px;
+  }
+  .internal-div-a,h3{
+   font-size: 20px;
+   padding-bottom: 20px;
+  }
+  
+/*Dj Booking World Wide*/
+.internal-div-ab >h3{
+  padding-top: 40px;
+ margin-left: 50px;
 
 }
-.button:hover{
-  background-color:rgb(69, 79, 70);
-  
-  
-
+/*Soundtracks*/
+.internal-div >h2{
+  padding-left: 50px;
+  padding-bottom: 40px;
 }
- 
-    
-  
+/*Berlin Bouncer*/
+.internal-div >a{
+  padding-left: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-weight:800;
+}
+/*Links*/
   .advantages .internal-div-a ul,a{
       list-style:none;
       display: flex;
       flex-direction: column;
-      justify-content: space-around;
       align-items: center;
       text-decoration: none;
-    color: rgb(255, 116, 116);
-    font-size: 20px;
-    padding-right: 20px;
+      color: rgb(255, 116, 116);
+      font-size: 20px;
+      padding-right: 20px;
+     
   }
 
 
@@ -266,13 +250,14 @@ a{
  padding-top: 30px;
 
 }
-#beatport{
+#spotify{
   padding-top: 30px;
+ 
 }
 .logos > p{
-    font-size: 80px;
+    font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: bold;
+    font-weight:lighter;
    margin-bottom: 30px;
    color: rgb(228, 186, 239);
 }
