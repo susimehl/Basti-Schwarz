@@ -40,7 +40,7 @@ header > div {
 #img-back {
   object-fit: cover;
   width: 80%;
-  height: 750px;
+  height: 350px;
   padding-top: 25vh;
   display: flex;
 	flex-direction: column;
@@ -86,20 +86,20 @@ header > div {
   }
 
 .footer {
-    padding-top: 100vw;
+    padding-top: 30vw;
     display: flex;
     flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: flex-end;
-	align-items: center;
-	align-content: stretch;
+	  flex-wrap: nowrap;
+	  justify-content: flex-end;
+	  align-items: center;
+	  align-content: stretch;
     color: azure;
     font-size: 30px;
 }
 
 .footer p{
     color:rgb(220, 220, 220);
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
@@ -145,7 +145,8 @@ header > div {
   .advantages h2 {
     color: #de8f8f;
     font-size: 30px;
-
+    display: flex;
+    justify-content:space-around
   }
   
   .internal-div-ab, p {
@@ -196,6 +197,11 @@ header > div {
   .internal-div-a,h3{
    font-size: 20px;
    padding-bottom: 20px;
+  
+  }
+
+  internal-div-a,a{
+    padding-left: 10px;
   }
   
 /*Dj Booking World Wide*/
@@ -211,9 +217,11 @@ header > div {
 }
 /*Berlin Bouncer*/
 .internal-div >a{
-  padding-left: 60px;
+  padding-left: 50px;
   font-family: 'Roboto', sans-serif;
   font-weight:800;
+  display: flex;
+  justify-content: space-between;
 }
 /*Links*/
   .advantages .internal-div-a ul,a{
@@ -224,23 +232,28 @@ header > div {
       text-decoration: none;
       color: rgb(255, 116, 116);
       font-size: 20px;
-      padding-right: 20px;
+      padding-right: 30px;
      
   }
 
 
  h7{
-    font-size: 30px;
+    font-size: 2.6em;
     color:rgb(255, 116, 116);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 300px;
+    padding: 60px;
+    color: rgb(255, 116, 116);
+    width:86%;
+    font-weight:bolder ;
+    letter-spacing: 1px;
   }
   .logos{
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
+    justify-content:space-evenly
+ 
   }
 #sound{
    padding-top: 30px;
@@ -248,18 +261,20 @@ header > div {
 }
 #insta{
  padding-top: 30px;
+ font-size: 10px;
 
 }
 #spotify{
   padding-top: 30px;
+  width: 380px;
  
 }
 .logos > p{
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:lighter;
-   margin-bottom: 30px;
-   color: rgb(228, 186, 239);
+    color: rgb(228, 186, 239);
+    padding-top: 40px;
 }
 
   @keyframes fadein {
