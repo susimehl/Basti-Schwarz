@@ -107,12 +107,13 @@ header > div {
 .advantages {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     align-content: center;
     height: auto;
     text-align: center;
     background-color: #131313;
+  
   }
   
   /*.advantages h1 {
@@ -146,31 +147,34 @@ header > div {
     color: #de8f8f;
     font-size: 30px;
     display: flex;
-    justify-content:space-around
+    justify-content:space-around;
+    padding-right:0px
   }
-  
-  .internal-div-ab, p {
+  /*Patci Email*/
+  .internal-div-ab p {
     font-size: 20px;
     text-align:center;
-    color:rgb(24, 231, 231);
-    
+    flex-direction: column;
+    flex-wrap:wrap;
+    color: rgb(99, 217, 176);
+    font-weight: lighter;
+   
    
   
   }
   
-
-  
  .external-div {
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+    justify-content:center;
     flex-wrap: nowrap;
-    align-items: baseline;
-    width: 90%;
-    padding-right: 60px;
+    align-items: baseline;/* herrabsetzung von disco und sounttrack mit center*/
+    width: 80%;
+    padding: 80px;
+
     
   }
-  /*Design/Nike-Charlotte*/
+  /*Design/Nike*/
  .internal-div>p{
     display: flex;
     flex-direction: column;
@@ -178,6 +182,18 @@ header > div {
     justify-content: space-around;
     color:chartreuse;
     font-size: 20px;
+    padding-left: 40px;
+  
+  }
+  /*charlotte*/
+  .internal-div>p1{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color:rgb(252, 106, 245);
+    font-size: 20px;
+    padding-left: 40px;
   
   }
   /*Album-Remixes-Singles*/
@@ -207,17 +223,19 @@ header > div {
 /*Dj Booking World Wide*/
 .internal-div-ab >h3{
   padding-top: 40px;
- margin-left: 50px;
+  padding-left: 30px;
+  color: #ed6868;
 
 }
+
 /*Soundtracks*/
 .internal-div >h2{
-  padding-left: 50px;
+  padding-left: 45px;
   padding-bottom: 40px;
 }
 /*Berlin Bouncer*/
 .internal-div >a{
-  padding-left: 50px;
+  padding-left: 70px;
   font-family: 'Roboto', sans-serif;
   font-weight:800;
   display: flex;
@@ -245,14 +263,14 @@ header > div {
     align-items: center;
     padding: 60px;
     color: rgb(255, 116, 116);
-    width:86%;
+    width:95%;
     font-weight:bolder ;
     letter-spacing: 1px;
   }
   .logos{
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly
+    justify-content:space-evenly;
  
   }
 #sound{
