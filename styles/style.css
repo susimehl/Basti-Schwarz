@@ -267,6 +267,13 @@ header > div {
   font-size: 25px;
   padding-top: 5px;
 }
+.player{
+height: 17px;
+width: 140px;
+border-style:double;
+padding-right: 25px;
+
+}
 
 /*Links*/
   .advantages .internal-div-a ul,a{
