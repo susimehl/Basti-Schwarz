@@ -50,6 +50,18 @@ header > div {
   padding-left: 10vw;
  
 }
+#img-back1 {
+  object-fit: cover;
+  width: 80%;
+  height: 350px;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+  align-items: baseline;
+	align-content: center;
+  padding-left: 10vw;
+ 
+}
 
   .centered-text {
     position:absolute;
@@ -81,6 +93,7 @@ header > div {
     animation-delay: 2s;
     color: rgb(38, 38, 38);
     font-weight:bold;
+    padding-top:5px;
    
    
   }
@@ -130,9 +143,9 @@ header > div {
 
   /*About Me*/
   .img-container, h1{
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 0px;
-    width: 100%;
+    width: 35%;
     letter-spacing: 2px;
     font-weight: bolder;
     font-size: 2.5em;
@@ -144,24 +157,25 @@ header > div {
 
   /*MUSIC PRODUCER*/
   .advantages h2 {
-    color: #de8f8f;
+    color: #d43958;
     font-size: 30px;
     display: flex;
     justify-content:space-around;
     padding-right:0px
   }
+  /*Disco*/
+  .internal-div-ab >h2{
+    padding-left: 20px;
+  }
   /*Patci Email*/
-  .internal-div-ab p {
+  .internal-div-ab , p {
     font-size: 20px;
-    text-align:center;
     flex-direction: column;
     flex-wrap:wrap;
-    color: rgb(99, 217, 176);
-    font-weight: lighter;
-   
-   
-  
+    color: rgb(243, 77, 77);
+    font-weight: lighter; 
   }
+  
   
  .external-div {
     display: flex;
@@ -175,14 +189,17 @@ header > div {
     
   }
   /*Design/Nike*/
- .internal-div>p{
+ .internal-div p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    color:chartreuse;
+    color: rgb(245, 85, 85);;
     font-size: 20px;
-    padding-left: 40px;
+    padding-right: 25px;
+    margin:16px;
+    font-weight:lighter;
+    padding-top: 15px;
   
   }
   /*charlotte*/
@@ -191,9 +208,9 @@ header > div {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    color:rgb(252, 106, 245);
+    color:rgb(243, 77, 77);
     font-size: 20px;
-    padding-left: 40px;
+    padding-right: 27px;
   
   }
   /*Album-Remixes-Singles*/
@@ -204,43 +221,52 @@ header > div {
     align-items:center;
     align-content: center;
     width: 90%;
-    margin-left: 10vw;
-    
+    margin-left: 10vw; 
   }
   .internal-div-a{
-    padding-right: 50px;
+    padding-right: 80px;
   }
-  .internal-div-a,h3{
-   font-size: 20px;
+  .internal-div-a h3{
+   font-size: 25px;
    padding-bottom: 20px;
-  
+   color: #f37474;
+   padding-right: 15px;
+  }
+  /*manymanymore*/
+  .internal-div-a p{
+    color:#4afbcf;
+    
   }
 
-  internal-div-a,a{
+  internal-div-a ,a{
     padding-left: 10px;
   }
+
   
 /*Dj Booking World Wide*/
 .internal-div-ab >h3{
-  padding-top: 40px;
-  padding-left: 30px;
+  padding-top: 45px;
+  padding-left: 20px;
   color: #ed6868;
 
 }
 
 /*Soundtracks*/
 .internal-div >h2{
-  padding-left: 45px;
+  padding-right: 30px;
   padding-bottom: 40px;
 }
 /*Berlin Bouncer*/
 .internal-div >a{
-  padding-left: 70px;
-  font-family: 'Roboto', sans-serif;
-  font-weight:800;
+  padding-right: 40px;
+  font-family: t'Roboto', sans-serif;
+  font-weight:600;
   display: flex;
-  justify-content: space-between;
+  color: #ed6868;
+  font-size: 25px;
+  padding-top: 5px;
 }
+
 /*Links*/
   .advantages .internal-div-a ul,a{
       list-style:none;
@@ -248,22 +274,22 @@ header > div {
       flex-direction: column;
       align-items: center;
       text-decoration: none;
-      color: rgb(255, 116, 116);
+      color: rgb(245, 85, 85);
       font-size: 20px;
-      padding-right: 30px;
+      padding-right: 20px;
+      font-weight: lighter;
      
   }
 
 
- h7{
+ h4{
     font-size: 2.6em;
     color:rgb(255, 116, 116);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 60px;
+    padding: 20px;
     color: rgb(255, 116, 116);
-    width:95%;
     font-weight:bolder ;
     letter-spacing: 1px;
   }
@@ -271,6 +297,7 @@ header > div {
     display: flex;
     flex-direction: row;
     justify-content:space-evenly;
+   
  
   }
 #sound{
