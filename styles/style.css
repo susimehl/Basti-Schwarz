@@ -165,7 +165,7 @@ header > div {
   }
   /*Disco*/
   .internal-div-ab >h2{
-    padding-left: 20px;
+    padding-left: 30px;
   }
   /*Patci Email*/
   .internal-div-ab , p {
@@ -197,9 +197,8 @@ header > div {
     color: rgb(245, 85, 85);;
     font-size: 20px;
     padding-right: 25px;
-    margin:16px;
     font-weight:lighter;
-    padding-top: 50px;
+    padding-top: 30px;
   
   }
   /*charlotte*/
@@ -247,7 +246,7 @@ header > div {
 /*Dj Booking World Wide*/
 .internal-div-ab >h3{
   padding-top: 45px;
-  padding-left: 20px;
+  padding-left: 30px;
   color: #ed6868;
 
 }
@@ -267,12 +266,33 @@ header > div {
   font-size: 25px;
   padding-top: 5px;
 }
+.little p{
+color:#4afbcf;;
+margin:5px;
+font-size:17px;
+}
+.little{
+  margin-bottom: 20px;
+
+}
 .player{
 height: 17px;
 width: 140px;
 border-style:double;
 padding-right: 25px;
 
+
+}
+/*Rate*/
+.rate{
+  padding-top: 20px;
+  padding-right: 40px;
+  font-family: t'Roboto', sans-serif;
+  font-weight:600;
+  display: flex;
+  color: #ed6868;
+  font-size: 25px;
+ 
 }
 
 /*Links*/
