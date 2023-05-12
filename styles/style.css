@@ -36,14 +36,26 @@ header > div {
    
   }
   .about{
-    color:aliceblue;
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-content: center;
     padding-left: 25vw;
     padding-right: 25vw;
-    font-size: 20px;
+    font-size: 50px;
+    font-weight: lighter;
+    color:#a2ff00;
+    letter-spacing: 0px;
+
+  }
+  .about1{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+    padding-left: 25vw;
+    padding-right: 25vw;
+    font-size: 13px;
     font-weight: lighter;
     color:#aaffea
   }
@@ -95,19 +107,21 @@ padding-left: 25vw;
     opacity: 0;
     animation: fadein 2s forwards;
     animation-delay: 1s;
+    color:#040404;
    
   }
   
   .centered-subtitle {
-    font-size: 1.0em;
+    font-size: 1.9em;
     opacity: 0;
     animation: fadein 2s forwards;
     animation-delay: 2s;
     /*color: rgb(38, 38, 38);*/
-    color:rgb(83, 174, 153);
+    color:rgb(255, 255, 255);
     font-weight:bold;
-    padding-top:18px;
+    padding-top:68px;
     margin-top:0px;
+    padding-left:20px;
    
    
   }
@@ -122,7 +136,7 @@ padding-left: 25vw;
 	  align-content: stretch;
     color: azure;
     font-size: 30px;
-    padding-right: 35px;
+    padding-left: 30px;
 }
 
 .footer p{
@@ -163,7 +177,7 @@ padding-left: 25vw;
     width: 66%;
     letter-spacing: 2px;
     font-weight: bolder;
-    font-size: 2.5em;
+    font-size: 1.4em;
     text-align: center;
     /*color: rgb(214, 165, 165);*/
     color: rgb(255, 116, 116);
@@ -176,7 +190,17 @@ padding-left: 25vw;
     font-size: 30px;
     display: flex;
     justify-content:space-around;
+    padding-left: 30px;
 
+  }
+
+  /*contact email*/
+  .contact >h2{
+    color:#ffffff;
+    margin:0px;
+    font-weight: 200;
+    font-size: 25px;
+    padding-right: 25px;
   }
   /*Disco*/
   .internal-div-ab >h2{
@@ -187,8 +211,9 @@ padding-left: 25vw;
     font-size: 20px;
     flex-direction:row;
     flex-wrap:nowrap;
-    color: rgb(243, 77, 77);
+    /*color: rgb(243, 77, 77);*/
     font-weight: 100; 
+    
   }
   
   
@@ -204,13 +229,13 @@ padding-left: 25vw;
     
   }
   /*Design/Nike*/
- .internal-div p{
+ .internal-div  p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     color: rgb(245, 85, 85);;
-    font-size: 20px;
+    font-size: 100px;
     padding-left: 75px;
     font-weight:lighter;
     padding-top: 30px;
@@ -224,6 +249,7 @@ padding-left: 25vw;
     justify-content: space-around;
     /*color:rgb(243, 77, 77);*/
     color:#4afbcf;
+ 
     font-size: 20px;
     padding-right: 45px;
     padding-top: 50px;
@@ -238,6 +264,7 @@ padding-left: 25vw;
     align-content: center;
     width: 95%;
    
+   
   }
   .internal-div-a{
     padding-right: 80px;
@@ -246,11 +273,12 @@ padding-left: 25vw;
    font-size: 25px;
    padding-bottom: 20px;
    color: #f37474;
-   padding-right: 15px;
+   padding-left: 10px;
   }
   /*manymanymore*/
   .internal-div-a p{
     color:#4afbcf;
+    padding-left: 30px;
     
   }
 
@@ -267,6 +295,7 @@ padding-left: 25vw;
   color:#2beebd;
   font-size: 25px;
 
+
 }
 
 /*Soundtracks*/
@@ -276,7 +305,7 @@ padding-left: 25vw;
 }
 /*Berlin Bouncer*/
 .internal-div > a{
-  padding-left: 60px;
+  padding-left: 45px;
   font-family: 'Roboto', sans-serif;
   font-weight:600;
   display: flex;
@@ -299,7 +328,6 @@ padding-left: 30px;
 .player{
 height: 17px;
 width: 140px;
-border-style:double;
 padding-left: 30px;
 
 
@@ -307,7 +335,7 @@ padding-left: 30px;
 /*Rate*/
 .rate{
   padding-top: 20px;
-  padding-left: 60px;
+  padding-left: 50px;
   font-family: t'Roboto', sans-serif;
   font-weight:600;
   display: flex;
@@ -325,11 +353,25 @@ padding-left: 30px;
       text-decoration: none;
       color: rgb(245, 85, 85);
       font-size: 20px;
-      padding-right: 30px;
+      padding-right: 15px;
       font-weight: lighter;
      
   }
+/*Trennpunkt*/
+.span {
+  content: "\2022";
+  color:#aaffea;
+  font-size: 40px;
+  padding-left: 22vw;
+}
+.span1{
+  content: "\2022";
+  color:#aaffea;
+  font-size: 40px;
+padding-left: 23vw;
+  
 
+}
 
  h4{
     font-size: 2.5em;
@@ -341,11 +383,12 @@ padding-left: 30px;
     color: rgb(255, 116, 116);
     font-weight:bolder ;
     letter-spacing: 1px;
-    padding-right: 20px;
+    padding-left: 30px;
   }
   .logos{
     display: flex;
     flex-direction:column;
+    padding-left: 30px;
  
   }
 
