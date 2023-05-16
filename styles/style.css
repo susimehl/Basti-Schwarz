@@ -53,11 +53,11 @@ header > div {
     flex-direction: row;
     justify-content: flex-end;
     align-content: center;
-    padding-left: 25vw;
-    padding-right: 25vw;
-    font-size: 13px;
+    padding-right: 34vw;
+    font-size: 15px;
     font-weight: lighter;
-    color:#aaffea
+    color:#aaffea;
+    padding-bottom:10px ;
   }
  
   
@@ -136,7 +136,7 @@ header > div {
 	  align-content: stretch;
     color: azure;
     font-size: 30px;
-    padding-left: 30px;
+    padding-left: 25px;
 }
 
 .footer p{
@@ -195,10 +195,10 @@ header > div {
   }
 
   /*contact email*/
-  .contact >h2{
-    color:#ffffff;
+  .contact h2{
+    color:#a968f3;
     margin:0px;
-    font-weight: 200;
+    font-weight: 400;
     font-size: 25px;
     padding-right: 25px;
   }
@@ -211,7 +211,7 @@ header > div {
     font-size: 20px;
     flex-direction:row;
     flex-wrap:nowrap;
-    /*color: rgb(243, 77, 77);*/
+    color: rgb(78, 232, 209);
     font-weight: 100; 
     
   }
@@ -228,31 +228,41 @@ header > div {
 
     
   }
+h5 {
+    color:#a98af6;
+    font-weight: 200;
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 20px;
+  }
   /*Design/Nike*/
  .internal-div  p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
     color: rgb(245, 85, 85);;
     font-size: 100px;
-    padding-left: 75px;
+    padding-left: 90px;
     font-weight:lighter;
-    padding-top: 30px;
   
   }
+ .mytheresa{
+  color:rgb(249, 138, 238);
+ }
+ .charlotte h5{
+  color:#a2ff00;
+ }
   /*charlotte*/
-  .internal-div>p{
+  .internal-div p{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
     /*color:rgb(243, 77, 77);*/
     color:#4afbcf;
- 
-    font-size: 20px;
+   font-size: 20px;
     padding-right: 45px;
-    padding-top: 50px;
+    padding-top: 20px;
   
   }
   /*Album-Remixes-Singles*/
@@ -266,30 +276,28 @@ header > div {
    
    
   }
-  .internal-div-a{
-    padding-right: 80px;
-  }
+ 
   .internal-div-a h3{
    font-size: 25px;
    padding-bottom: 20px;
    color: #f37474;
-   padding-left: 10px;
+  padding-left: 10px;
   }
   /*manymanymore*/
   .internal-div-a p{
     color:#4afbcf;
-    padding-left: 30px;
+    padding-left: 33px;
     
   }
 
   internal-div-a ,a{
-    padding-left: 10px;
+    padding-left: 15px;
   }
 
   
 /*Dj Booking World Wide*/
 .internal-div-ab >h3{
-  padding-top: 45px;
+  padding-top: 5px;
   padding-left: 13vw;
   /*color: #ed6868;*/
   color:#2beebd;
@@ -300,12 +308,12 @@ header > div {
 
 /*Soundtracks*/
 .internal-div >h2{
-  padding-left: 25px;
+  padding-left: 50px;
   padding-bottom: 40px;
 }
 /*Berlin Bouncer*/
 .internal-div > a{
-  padding-left: 45px;
+  padding-left: 65px;
   font-family: 'Roboto', sans-serif;
   font-weight:600;
   display: flex;
@@ -315,10 +323,10 @@ header > div {
 }
 .little p{
 color:#56fcd3;
-margin:5px;
+margin:15px;
 font-size:17px;
 font-weight: lighter;
-padding-left: 30px;
+padding-left:90px;
 }
 .little{
   margin-bottom: 20px;
@@ -328,14 +336,14 @@ padding-left: 30px;
 .player{
 height: 17px;
 width: 140px;
-padding-left: 30px;
+padding-left: 40px;
 
 
 }
 /*Rate*/
 .rate{
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left:70px;
   font-family: t'Roboto', sans-serif;
   font-weight:600;
   display: flex;
@@ -383,12 +391,12 @@ padding-left: 23vw;
     color: rgb(255, 116, 116);
     font-weight:bolder ;
     letter-spacing: 1px;
-    padding-left: 30px;
+    padding-left: 20px;
   }
   .logos{
     display: flex;
     flex-direction:column;
-    padding-left: 30px;
+    padding-left: 20px;
  
   }
 
@@ -412,8 +420,8 @@ padding-left: 23vw;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight:200;
     color:#f7f3f4;
-    padding-top: 50px;
-    padding-left: 40vw;
+    padding-top: 5px;
+    padding-left: 41vw;
    
 }
 
@@ -428,96 +436,3 @@ padding-left: 23vw;
 
  /* Mobile Version */
 
-/* Schriftart importieren */
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
-
-/* Body */
-body {
-  font-family: 'Roboto', sans-serif;
-  padding: 0;
-  margin: 0;
-  background-color:#131313;
-}
-
-/* Header */
-header > div {
-  position: fixed;
-  z-index: 9999;
-  width: 100%;
-  height: 60px; /* Höhe des Headers verringern */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color:#000000;
-  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-}
-
-.spotify-logo {
-  width: 50px; /* Größe des Logos verringern */
-  padding: 10px; /* Innenabstand des Logos verringern */
-}
-
-.img-container {
-  position: relative;
-  text-align: center;
-  color: rgb(212, 255, 22);
-  font-size: 16px; /* Schriftgröße verringern */
-  margin-top: 40px; /* Abstand zum Header erhöhen */
-}
-
-.about{
-  display:flex;
-  flex-direction: column; /* Text untereinander anordnen */
-  justify-content: center;
-  align-content: center;
-  font-size: 30px; /* Schriftgröße erhöhen */
-  font-weight: lighter;
-  color:#a2ff00;
-  letter-spacing: 0px;
-  padding: 20px; /* Abstand erhöhen */
-}
-
-.about1{
-  display:flex;
-  flex-direction: column; /* Text untereinander anordnen */
-  justify-content: center;
-  align-content: center;
-  font-size: 10px; /* Schriftgröße verringern */
-  font-weight: lighter;
-  color:#aaffea;
-  padding: 20px; /* Abstand erhöhen */
-}
-
-#img-back {
-  object-fit: cover;
-  width: 100%; /* Breite auf 100% setzen */
-  height: auto; /* Höhe automatisch anpassen */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center; /* Bild horizontal zentrieren */
-  align-content: center;
-  padding: 20px; /* Abstand erhöhen */
-}
-
-#img-back1 {
-  object-fit: cover;
-  width: 100%; /* Breite auf 100% setzen */
-  height: auto; /* Höhe automatisch anpassen */
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center; /* Bild horizontal zentrieren */
-  align-content: center;
-  padding: 20px; /* Abstand erhöhen */
-}
-
-.centered-text {
-  position:relative; /* Position relativ setzen */
-  width: 100%; /* Breite auf 100% setzen */
-  padding-bottom: 20px; /* Abstand erhöhen */
-  padding-left: 20px; /* Abstand zur linken Seite erhöhen */
-  padding-right: 20px; /* Abstand*/
-  display:flex;
-}
-    
